@@ -1,0 +1,329 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(222, 236, 250);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#formId {
+  /* max-width: 60%; */
+  width: 30%;
+  margin: 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 55vh
+}
+
+#formId label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 120%;
+
+}
+
+
+#formId input {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#formId button {
+
+  width: 30%;
+
+  padding: 10px;
+
+  border: none;
+
+  border-radius: 5px;
+  background-color: #2b7bc5;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 3%;
+}
+
+#formId button:hover {
+  background-color: #5899d6;
+}
+
+#rzp-button {
+
+  width: 20%;
+  height: 50px;
+  padding: 10px;
+
+  border: none;
+
+  border-radius: 18px;
+  background-color: #2b7bc5;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 3%;
+}
+
+#rzp-button:hover {
+  background-color: blue;
+}
+
+#formId select {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* ***************************************************************** */
+
+
+#expenses {
+  /* border:2px solid grey; */
+  width: 50%;
+  padding: 20px;
+
+  border-radius: 10px;
+  /* margin-top: 50px; */
+
+
+}
+
+#expenses h2 {
+  text-align: center;
+}
+
+.expense-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.expense-list li {
+  background-color: #f7f7f7;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.expense-list li .expense-details {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.expense-list li .expense-details span {
+  font-weight: bold;
+}
+
+.expense-list li .edit-button,
+.expense-list li .delete-button {
+  padding: 8px 12px;
+  font-size: 13px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 3px;
+}
+
+
+
+
+.expense-list li .edit-button {
+  background-color: rgb(46, 139, 214);
+  color: #ffffff;
+  width: 70px;
+  border-radius: 8px;
+
+}
+
+.expense-list li .edit-button:hover {
+  background-color: blue;
+}
+
+.expense-list li .delete-button {
+  background-color: #ff574e;
+  border-radius: 8px;
+  color: #ffffff;
+  width: 70px;
+}
+
+
+.expense-list li .delete-button:hover {
+  background-color: rgb(143, 28, 28);
+}
+
+/* ************************************************** */
+/* leaderboard button */
+.leaderboard-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2aa15f;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.leaderboard-button:hover {
+  background-color: #1f7a46;
+}
+
+
+/* ***************leaderboarddiv************* */
+
+
+
+
+
+/* Leaderboard List */
+#leader {
+  width: 50%;
+  text-align: center;
+}
+
+#leader ul {
+  list-style: none;
+  padding: 0;
+  font-size: large;
+  margin: 20px 0;
+  text-align: center;
+}
+
+#leader li {
+
+  background-color: #f7f7f7;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+#downloadexpense {
+  width: 150px;
+  height: 40px;
+  background-color: blue;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#downloadexpense:hover {
+  background-color: blueviolet;
+}
+
+
+/* **************************************************** */
+#fileurllist {
+  margin-top: 20px;
+  width: 50%;
+  text-align: center;
+}
+
+#fileurllist h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: rgb(30, 30, 71);
+}
+
+#fileurllist ul {
+  list-style: none;
+  padding: 0;
+  font-size: large;
+  margin: 20px 0;
+  text-align: center;
+}
+
+#fileurllist li {
+  background-color: #f7f7f7;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+
+
+
+#paginationButton button {
+  margin-bottom: 10px;
+  /* border:1px solid black; */
+
+}
+
+#yyy {
+  margin-top: 20px;
+  font-size: larger;
+}
+
+#ExpensePerPage {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ExpensePerPage select {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+#ExpensePerPage button {
+  margin-left: 10px;
+  /* width: 30%; */
+  padding: 10px;
+  border: none;
+  height:10%;
+  border-radius: 5px;
+  background-color: #2b7bc5;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 3%;
+}
+
+
+
+#ExpensePerPage button:hover {
+  background-color: #5899d6;
+}
